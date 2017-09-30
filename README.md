@@ -10,7 +10,7 @@ Given mp3 files，generate txt files（title,artist and album) and png files.
 python3 + eyed3(you may need to install python-magic first, see the dependencies here:https://github.com/ahupp/python-magic)  
 
 #### Step:
-1.Use powershell to modify the file name, ascending from 001.mp3.(the next step will fail to load the file if the file name contains some chinese characters).  s
+1.Use powershell to modify the file name, ascending from 001.mp3.(the next step will fail to load the file if the file name contains some chinese characters).  
 
   cd PATH  
   $files=get-childitem  
